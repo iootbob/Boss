@@ -1,0 +1,315 @@
+h1,h2,h3,h4,h5,h6,p{margin: 0;}
+
+.intro p{
+    color:black;
+}
+
+
+.intro h1{
+    font-size: 1.5em;
+    padding-top: 25%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#second h1{
+    
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 50%;
+    font-weight: 800;
+
+}
+
+#second h4{
+    font-size: 1.3em;
+     letter-spacing: 3px;
+     text-transform: uppercase;
+     line-height: 1.5em;
+}
+
+#second h1, #second h4 {
+    color: #e6eeff;
+}
+
+#third h1{
+    
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 50%;
+    font-weight: 800;
+
+}
+
+#third h4{
+     font-size: 1.3em;
+     letter-spacing: 3px;
+    text-transform: uppercase;
+     line-height: 1.5em;
+}
+
+#third h1, #third h4 {
+    color: #1a0d00;
+}
+
+
+#fourth h1{
+    
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 50%;
+    font-weight: 800;
+
+}
+
+#fourth h4{
+     font-size: 1.3em;    
+     letter-spacing: 3px;
+     text-transform: uppercase;
+    line-height: 1.5em;
+}
+
+#fourth h1, #fourth h4 {
+    color: #e6eeff;
+}
+
+#fifth h1{
+    
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-top: 50%;
+    font-weight: 300;
+   
+
+}
+
+#fifth h2{
+    padding-top: 40%;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 200%;;
+}
+
+#sixth h3{
+    
+    padding-top: 3%;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 200%;
+   
+    font-weight: 400;
+   
+
+}
+
+#seventh h1{
+    color: aliceblue;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    padding-top: 4%;
+    font-weight: 700;
+   
+
+}
+
+#seventh h2{
+    color: aliceblue;
+     font-weight: 300;
+    font-size: .9em;
+   padding-top: 2% ;
+    text-transform: uppercase;
+}
+
+
+
+nav{
+    opacity: .8;
+}
+nav:hover{
+    opacity: 1;
+}
+
+html {
+   margin: 0px;
+   padding: 0px;
+}
+
+header {
+   vertical-align: center;
+}
+
+a{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header {
+    background: url("https://thebossbox.com/wp-content/uploads/2017/06/section1-bg.jpg  ") ;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+}
+
+#second{
+    
+    background: url("https://thebossbox.com/wp-content/uploads/2017/06/section2-bg.jpg") ;
+    background-position: center center;
+    background-size: cover;
+    
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+
+}
+
+#second-overlay{
+    
+    
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+
+#third{
+    
+    background: url("https://thebossbox.com/wp-content/uploads/2017/06/section3-bg.jpg") ;
+    background-position: center center;
+    background-size: cover;
+    
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+
+}
+
+#fourth{
+    
+    background: url("https://thebossbox.com/wp-content/uploads/2017/06/section4-b.jpg")no-repeat center center fixed ;
+    background-position: center center;
+    background-size: cover;
+    
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height:75vh;
+    z-index: -10;
+
+}
+
+
+#fifth{
+    
+    background: url("https://thebossbox.com/wp-content/uploads/2017/06/section5-bg.jpg")no-repeat center center fixed ;
+    background-position: center center;
+    background-size: cover;
+    
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+
+}
+
+#sixth{
+    
+    background-color:#ffb3b3     ;
+    background-position: center center;
+    background-size: cover;
+    
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 70vh;
+    z-index: -10;
+
+}
+
+
+#seventh{
+    
+    background-color:#1a1100;
+    
+    background-position: center center;
+    background-size: cover;
+    
+    position: relative;
+    top: 0;
+    bottom:0;
+    height: 50vh;
+    z-index: -10;
+        
+}
+
+ 
+ 
+
+#sixth img {
+    padding-top: 10%;
+}
+
+
+
+.but {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 1%;
+    opacity: 1;
+    background-color: #ff9999;
+    border: none;
+    color: white  ;  
+}
+
+.but2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: .75%;
+    opacity: 1;
+    background-color: #ff9999;
+    border: none;
+    color: white  ;  
+}
+
+#seventh form{
+    padding-top: 4%;
+    
+    
+}
+
+input{
+    width: 50%;
+    border: 1px solid #ccc;
+    
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+footer{
+    background-color: red;
+}
+
+hr {
+    border-color: black;
+}
